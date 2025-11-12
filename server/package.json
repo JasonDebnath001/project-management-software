@@ -7,8 +7,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npx prisma generate",
-    "start": "prisma generate && node server.js",
+    "build": "prisma generate",
+    "start": "node server.js",
     "server": "nodemon server.js"
   },
   "dependencies": {
